@@ -1,0 +1,12 @@
+@import '~src/styles/mixins';
+@import '~src/styles/variables';
+
+.tile {
+  outline: none;
+  transition: all .3s ease-in-out;
+  &.focus {
+    transform: scale(1.02) translateY(-1rem);
+    box-shadow: 4px 4px 8px rgba($black, .2);
+    z-index: 999;
+  }
+}

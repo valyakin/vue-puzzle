@@ -7651,6 +7651,10 @@ uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
 
+uniqid@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/uniqid/-/uniqid-5.0.3.tgz#917968310edc868d50df6c44f783f32c7d80fac1"
+
 uniqs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/uniqs/-/uniqs-2.0.0.tgz#ffede4b36b25290696e6e165d4a59edb998e6b02"
@@ -7851,6 +7855,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-draggable@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vue-draggable/-/vue-draggable-1.0.6.tgz#19d6b66d65ac75d72ef6089d617eeaf9aca29752"
+
 vue-eslint-parser@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-2.0.3.tgz#c268c96c6d94cfe3d938a5f7593959b0ca3360d1"
@@ -7879,6 +7887,10 @@ vue-loader@^15.2.0:
 vue-material@^1.0.0-beta-10.2:
   version "1.0.0-beta-10.2"
   resolved "https://registry.yarnpkg.com/vue-material/-/vue-material-1.0.0-beta-10.2.tgz#c3effea97e0c5a0c696b0051d5ef9c6e6cf2a5ed"
+
+vue-slider-component@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/vue-slider-component/-/vue-slider-component-2.7.2.tgz#35f328e44f1eef66b1da99029121adc8c0caf7b9"
 
 vue-style-loader@^4.1.0:
   version "4.1.0"
