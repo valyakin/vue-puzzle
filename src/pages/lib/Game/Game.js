@@ -86,7 +86,12 @@ export default {
       this.srcIndex = null
     },
     initTiles () {
-      return [...Array(this.tilesCount)].map(() => ({id: uniqid()}))
+      return [...Array(this.tilesCount)].map(this.getTile)
+    },
+    getTile () {
+      return {
+        id: uniqid(),
+      }
     },
   },
   mounted () {

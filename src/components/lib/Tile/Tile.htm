@@ -1,7 +1,7 @@
 <div
   draggable
   @dragstart="onDragstart"
-  @dragenter="onDragenter"
+  @dragenter.prevent="onDragenter"
   @dragover.prevent="onDragover"
   @dragleave="onDragleave"
   @drag="onDrag"

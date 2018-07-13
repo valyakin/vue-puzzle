@@ -30,6 +30,7 @@ export default {
   },
   methods: {
     onDragstart (e) {
+      e.dataTransfer.setData('firefox', 'fix')
       return this.$emit('dragstart', this.id)
     },
     onDragenter (e) {
